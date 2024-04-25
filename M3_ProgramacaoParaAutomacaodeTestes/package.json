@@ -1,0 +1,16 @@
+{
+  "name": "pgats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 test/**/*.test.js"
+  },
+  "author": "Lottermann, Marcos",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.19.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
