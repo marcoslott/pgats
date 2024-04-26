@@ -1,0 +1,14 @@
+{
+  "name": "atividadefinal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 test/**/*.test.js"
+  },
+  "author": "Lottermann, Marcos",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  }
+}
