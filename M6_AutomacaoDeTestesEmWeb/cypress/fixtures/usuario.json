@@ -1,0 +1,19 @@
+{
+	"name": "Name",
+	"email": "",
+	"password": "123456",
+	"title": "Mr",
+	"birth_date": "15",
+	"birth_month": "1",
+	"birth_year": "1992",
+	"firstname": "Cristiano",
+	"lastname": "Ronaldo",
+	"company": "Tabajara",
+	"address1": "Endereço1",
+	"address2": "Endereço2",
+	"country": "United States",
+	"zipcode": "90090-900",
+	"state": "Florida",
+	"city": "Nao sei",
+	"mobile_number": "5599999999"
+}
