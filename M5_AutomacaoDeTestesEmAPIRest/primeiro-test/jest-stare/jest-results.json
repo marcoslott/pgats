@@ -1,0 +1,341 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 4,
+  "numPassedTests": 13,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 4,
+  "numTotalTests": 13,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1723150550009,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1723150566448,
+        "runtime": 15177,
+        "slow": true,
+        "start": 1723150551271
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\projects\\pgats\\M5_AutomacaoDeTestesEmAPIRest\\primeiro-test\\test\\users\\test-users.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 71,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Ausencia de campo email, deverá gerar o status code 422 e emitir uma mensagem de erro validando a mesma.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Ausencia de campo email, deverá gerar o status code 422 e emitir uma mensagem de erro validando a mesma."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 24,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Cadastrando um usuário, e consultando o retorno dos campos, se foram os enviados.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Cadastrando um usuário, e consultando o retorno dos campos, se foram os enviados."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 46,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Alterando o registro cadastrado anteriormente, e verificando se os dados realmente foram alterados.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 7,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Alterando o registro cadastrado anteriormente, e verificando se os dados realmente foram alterados."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 25,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Deverá remover o registro cadastrado anteriormente. E retornar 204.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Deverá remover o registro cadastrado anteriormente. E retornar 204."
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1723150566490,
+        "runtime": 15223,
+        "slow": true,
+        "start": 1723150551267
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\projects\\pgats\\M5_AutomacaoDeTestesEmAPIRest\\primeiro-test\\test\\users\\teste-env-separado.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 72,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Ausencia de campo email, deverá gerar o status code 422 e emitir uma mensagem de erro validando a mesma.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Ausencia de campo email, deverá gerar o status code 422 e emitir uma mensagem de erro validando a mesma."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 38,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Cadastrando um usuário, e consultando o retorno dos campos, se foram os enviados.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Cadastrando um usuário, e consultando o retorno dos campos, se foram os enviados."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 41,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Alterando o registro cadastrado anteriormente, e verificando se os dados realmente foram alterados.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 7,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Alterando o registro cadastrado anteriormente, e verificando se os dados realmente foram alterados."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete)"
+          ],
+          "duration": 31,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete) Deverá remover o registro cadastrado anteriormente. E retornar 204.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Deverá remover o registro cadastrado anteriormente. E retornar 204."
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1723150566528,
+        "runtime": 15253,
+        "slow": true,
+        "start": 1723150551275
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\projects\\pgats\\M5_AutomacaoDeTestesEmAPIRest\\primeiro-test\\test\\conteudos\\crud-conteudo.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Suite de testes CRUD (post, get, put, delete) dos CONTEUDOS"
+          ],
+          "duration": 43,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes CRUD (post, get, put, delete) dos CONTEUDOS Test02: Consultar o registro de conteúdo cadastrado anteriormente. E o statusCode retornado 200.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 14,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Test02: Consultar o registro de conteúdo cadastrado anteriormente. E o statusCode retornado 200."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes CRUD (post, get, put, delete) dos CONTEUDOS"
+          ],
+          "duration": 26,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes CRUD (post, get, put, delete) dos CONTEUDOS Test03: Alterar o registro de conteúdo consultado anteriormente. Validar a alteração dos dados e o statusCode retornado 201.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 6,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Test03: Alterar o registro de conteúdo consultado anteriormente. Validar a alteração dos dados e o statusCode retornado 201."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes CRUD (post, get, put, delete) dos CONTEUDOS"
+          ],
+          "duration": 38,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes CRUD (post, get, put, delete) dos CONTEUDOS Test04: Remover o registro de conteúdo alterado anteriormente. Validar se a remoção foi efetivada e o statusCode retornado 200.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Test04: Remover o registro de conteúdo alterado anteriormente. Validar se a remoção foi efetivada e o statusCode retornado 200."
+        }
+      ],
+      "failureMessage": null
+    },
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1723150566523,
+        "runtime": 15253,
+        "slow": true,
+        "start": 1723150551270
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "uncheckedKeys": [],
+        "unmatched": 0,
+        "updated": 0
+      },
+      "testFilePath": "C:\\projects\\pgats\\M5_AutomacaoDeTestesEmAPIRest\\primeiro-test\\test\\users\\teste-integrado-users.test.js",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete USER)"
+          ],
+          "duration": 78,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete USER) Alterando o registro cadastrado anteriormente, e verificando se os dados realmente foram alterados.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 9,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Alterando o registro cadastrado anteriormente, e verificando se os dados realmente foram alterados."
+        },
+        {
+          "ancestorTitles": [
+            "Suite de testes crud (post, get, put, delete USER)"
+          ],
+          "duration": 37,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Suite de testes crud (post, get, put, delete USER) Deverá remover o registro cadastrado anteriormente. E retornar 204.",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "Deverá remover o registro cadastrado anteriormente. E retornar 204."
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false
+}
