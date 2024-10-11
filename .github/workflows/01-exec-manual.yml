@@ -1,0 +1,19 @@
+#CI de Nível 1 - Disparo manual a partir de 1 clique
+
+name: "Execução Manual"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  e2e-tests:
+    runs-on: ["ubuntu-latest"]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Cypress install
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: M6_AutomacaoDeTestesEmWeb
