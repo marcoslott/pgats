@@ -22,7 +22,7 @@ describe("Automation Exercise", () => {
 	});
 
 	beforeEach(() => {
-		cy.visit("/");
+		cy.visit("https://automationexercise.com");
 		home.validarSeEstaNaTelaHome();
 		cy.log(usuario.email);
 	});
