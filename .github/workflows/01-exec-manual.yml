@@ -1,6 +1,6 @@
 # CI de Nível 1 - Disparo manual a partir de 1 clique
 
-name: "Execução Manual"
+name: "Execução Manual - Testes Web (M6_AutomacaoDeTestesEmWeb)"
 
 on:
   workflow_dispatch:
