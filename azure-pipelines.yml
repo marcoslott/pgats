@@ -1,0 +1,26 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- main
+
+pool:
+  name: 'Default'
+
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '20.x'
+  displayName: 'Instalar Node.js'
+
+- script: |
+    cd M6_AutomacaoDeTestesEmWeb
+    npm install
+  displayName: 'Instalar dependências'
+
+- script: |
+    cd M6_AutomacaoDeTestesEmWeb
+    npx cypress run
+  displayName: 'Rodar testes Cypress'
