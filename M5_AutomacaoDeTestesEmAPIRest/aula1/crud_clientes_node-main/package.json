@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.1"
+    "swagger-ui-express": "^5.0.1",
+    "cors": "^2.8.5"
   }
 }
