@@ -7,7 +7,7 @@ on:
 
 jobs:
   e2e-tests:
-    runs-on: ['ubuntu-latest']
+    runs-on: ["ubuntu-latest"]
     timeout-minutes: 30
 
     steps:
@@ -21,3 +21,9 @@ jobs:
       - name: Run Cypress tests
         working-directory: ./M6_AutomacaoDeTestesEmWeb
         run: npx cypress run
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: relatorio-de-testes
+          path: ./M6_AutomacaoDeTestesEmWeb/cypress/reports

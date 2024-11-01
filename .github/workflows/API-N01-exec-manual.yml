@@ -29,3 +29,9 @@ jobs:
       - name: Rodar os testes
         working-directory: ./M5_AutomacaoDeTestesEmAPIRest/primeiro-test
         run: npm run test
+
+      - uses: actions/upload-artifact@v4
+        if: ${{ !cancelled() }}
+        with:
+          name: relatorio-de-testes
+          path: ./M5_AutomacaoDeTestesEmAPIRest/primeiro-test/jest-stare
