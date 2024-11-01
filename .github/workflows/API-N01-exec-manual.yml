@@ -14,8 +14,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Install application dependencies
+        working-directory: ./M5_AutomacaoDeTestesEmAPIRest/aula1/crud_clientes_node-main
+        run: npm install
+
       - name: Install project dependencies
-        working-directory: ./M5_AutomacaoDeTestesEmAPIRest
+        working-directory: ./M5_AutomacaoDeTestesEmAPIRest/primeiro-test
         run: npm install
 
       - name: Subir a aplicação
@@ -23,5 +27,5 @@ jobs:
         run: node app.js &
 
       - name: Rodar os testes
-        working-directory: ./M5_AutomacaoDeTestesEmAPIRest
+        working-directory: ./M5_AutomacaoDeTestesEmAPIRest/primeiro-test
         run: npm run test
