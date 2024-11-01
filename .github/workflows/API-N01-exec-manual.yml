@@ -1,0 +1,27 @@
+# CI de Nível 1 - Disparo manual a partir de 1 clique
+
+name: "Execução Manual - Testes API (M5_AutomacaoDeTestesEmAPIRest)"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  e2e-tests:
+    runs-on: ['ubuntu-latest']
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install project dependencies
+        working-directory: ./M5_AutomacaoDeTestesEmAPIRest
+        run: npm install
+
+      - name: Subir a aplicação
+        working-directory: ./M5_AutomacaoDeTestesEmAPIRest/aula1/crud_clientes_node-main/backend
+        run: node app.js &
+
+      - name: Rodar os testes
+        working-directory: ./M5_AutomacaoDeTestesEmAPIRest
+        run: npm run test
