@@ -1,6 +1,6 @@
 #CI de Nível 4 - Disparo dentro do fluxo de CI de desenvolvimento
 
-name: "Execução Integrada"
+name: "Execução Integrada - Testes Web (M6_AutomacaoDeTestesEmWeb)"
 
 on:
   workflow_dispatch:
