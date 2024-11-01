@@ -17,6 +17,7 @@ jobs:
         run: npm install
 
       - name: Padronização de código (Prettier)
+        working-directory: ./M6_AutomacaoDeTestesEmWeb
         run: npm run format
 
   e2e-tests:
