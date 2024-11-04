@@ -1,0 +1,10 @@
+[
+  {
+  "usuarioLogin": "cgts",
+  "usuarioSenha": "123456"
+},
+{
+  "usuarioLogin": "admin",
+  "usuarioSenha": "admin"
+}
+]
