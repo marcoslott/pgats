@@ -1,0 +1,14 @@
+{
+  "name": "extra_desafios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^10.8.2"
+  }
+}
