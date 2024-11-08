@@ -1,5 +1,5 @@
 function numeroAleatorioMenorQue (numero) {
-  returnMath.random() * numero
+  return Math.random() * numero
 }
 
 export {numeroAleatorioMenorQue}

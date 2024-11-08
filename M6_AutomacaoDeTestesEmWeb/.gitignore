@@ -1,4 +1,6 @@
 node_modules
 cypress/reports
 results
+log
 *.log
+package-lock.json
