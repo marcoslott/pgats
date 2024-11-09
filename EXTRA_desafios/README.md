@@ -15,5 +15,3 @@ Os testes unitários foram implementados utilizando o Mocha, um framework de tes
 - [CodeWars - Desafios para prática de desenvolvimento](https://www.codewars.com/)
 
 Comando para rodar os testes: ``npm test``
-
-https://avatars.githubusercontent.com/u/8770005?s=200&v=4
