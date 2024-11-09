@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 60000 test/**/*.test.js"
+    "test:web": "mocha --timeout 60000 test/web/**/*.test.js",
+    "test:unit": "mocha --timeout 60000 test/unit/**/*.test.js",
+    "test": "npm run test:web && npm run test:unit"
   },
   "author": "Lottermann, Marcos",
   "license": "ISC",

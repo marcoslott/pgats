@@ -7,7 +7,7 @@ describe("Login", () => {
 		const navegador = new WebDriver.Builder().forBrowser(WebDriver.Browser.CHROME).build();
 
 		//Setar a espera implícita
-		await navegador.manage().setTimeout({ script: 6000 });
+		await navegador.manage().setTimeouts({ script: 6000 });
 
 		//Navegar para http://165.227.93.41/lojinha-web/v2/
 		//quando for retorno promise, usar o await (e no it indicar o async no método). é o caso do navegador.get
@@ -28,6 +28,6 @@ describe("Login", () => {
 		assert.equal(urlAtual, urlEsperada);
 
 		//Fechar navegador
-		await navegador.quit;
+		await navegador.quit();
 	});
 });
