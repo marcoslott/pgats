@@ -17,7 +17,7 @@ Projeto desenvolvido na disciplina Automação em Testes Mobile da Pós-Graduaç
 2. Instale o [Java SE Development Kit](https://www.oracle.com/br/java/technologies/javase/javase8-archive-downloads.html)
 3. Instale e configure o [Android Studio](#configuração-do-android-studio-)
 4. Configure as [variáveis de ambiente](#configuração-das-variáveis-de-ambiente-)
-5. Crie o [device no Android Studio](#criação-do-device-no-android-studio)
+5. Crie o [device no Android Studio](#criação-do-device-no-android-studio-)
 6. Instale e configure o [Appium](#instale-e-configure-o-appium-)
 7. Instale as dependências do projeto com o comando ``npm install``
 
